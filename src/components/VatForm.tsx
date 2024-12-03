@@ -24,7 +24,7 @@ interface PercentAmount {
  5: number;
 }
 
-type VatForm = {
+type FormData = {
  amount: number;
  radio: NettoEnum;
  percentage: number;
@@ -37,7 +37,7 @@ const VatForm = () => {
   5: 5,
  };
 
- const { register, handleSubmit } = useForm<VatForm>({
+ const { register, handleSubmit } = useForm<FormData>({
   defaultValues: {
    amount: 0,
    percentage: percentages[23],
@@ -46,7 +46,7 @@ const VatForm = () => {
 
  const [result, setResult] = useState<number | null>(null);
 
- const onSubmit: SubmitHandler<VatForm> = (data) => {
+ const onSubmit: SubmitHandler<FormData> = (data) => {
   const { amount, percentage } = data;
   const calculatedResult = amount * (percentage / 100);
   setResult(calculatedResult);
