@@ -1,12 +1,13 @@
 "use client";
 
+import Navigation from "@/components/Navigation";
 import VatForm from "@/components/VatForm";
-import { AppBar, Box } from "@mui/material";
+import { Box } from "@mui/material";
 
 export default function Home() {
  return (
   <Box>
-   <AppBar></AppBar>
+   <Navigation />
    <VatForm />
   </Box>
  );
