@@ -1,5 +1,52 @@
+* {
+ font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+ height: 70px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.navigation a {
+ color: white;
+ text-decoration: none;
+ font-size: 30px;
+}
+
+.title {
+ padding-top: 80px;
+ text-align: center;
+ font-size: 30px;
+}
+
+.info {
+ width: 50%;
+ font-size: 20px;
+}
+
+.mainBox {
+ padding-top: 80px;
+ text-align: center;
+ display: flex;
+ justify-content: space-evenly;
+ height: 80%;
+}
+
+.vatForm {
+ width: 300px;
+}
+
 form {
  display: flex;
  flex-direction: column;
  align-items: center;
+}
+
+button {
+ height: 50px;
+ width: 200px;
 }

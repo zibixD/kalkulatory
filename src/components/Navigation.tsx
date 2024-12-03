@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Navigation = () => {
  return (
-  <AppBar>
+  <AppBar className="navigation">
    <Link href="/">Strona główna</Link>
-   <Link href="/kalkulatorVat">Kalkulator VAT</Link>
+   {/* <Link href="/kalkulatorVat">Kalkulator VAT</Link> */}
    {/* <Link>Kalkulator Płacowy</Link> */}
   </AppBar>
  );
