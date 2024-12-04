@@ -99,13 +99,13 @@ const VatForm = () => {
         <FormControlLabel
          {...register("radio")}
          value="brutto"
-         label="Brutto na netto"
+         label="Netto na brutto"
          control={<Radio />}
         ></FormControlLabel>
         <FormControlLabel
          {...register("radio")}
          value="netto"
-         label="Netto na brutto"
+         label="Brutto na netto"
          control={<Radio />}
         ></FormControlLabel>
        </RadioGroup>
