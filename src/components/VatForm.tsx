@@ -121,7 +121,10 @@ const VatForm = () => {
         ))}
        </Select>
       </FormControl>
-      <Button type="submit" sx={{ backgroundColor: "wheat", color: "black" }}>
+      <Button
+       type="submit"
+       sx={{ backgroundColor: "wheat", color: "black", marginTop: "20px" }}
+      >
        Przelicz
       </Button>
      </form>
